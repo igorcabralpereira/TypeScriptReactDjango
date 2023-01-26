@@ -4,11 +4,18 @@ export const TableLine = styled.tr`
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     padding: .35em;
+    display: flex;
+
+    @media (max-width: 400px) {
+
+        flex-wrap: wrap;
+
+    }
 
 `;
 
 export const TableColumn = styled.td`
-
+    width: 100%;
 `;
 
 export const Title = styled.div`

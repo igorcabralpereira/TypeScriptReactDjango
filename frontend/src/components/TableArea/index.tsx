@@ -18,10 +18,10 @@ export const TableArea = ({ list }: Props) => {
             {/* C.Table e C.TableHeadColumn é um componente criado */}
             <thead>
                 <tr>
-                    <C.TableHeadColumn width={100}>Data</C.TableHeadColumn>
-                    <C.TableHeadColumn width={180}>Categoria</C.TableHeadColumn>
-                    <C.TableHeadColumn width={100}>Título</C.TableHeadColumn>
-                    <C.TableHeadColumn width={180}>Valor</C.TableHeadColumn>
+                    <C.TableHeadColumn></C.TableHeadColumn>
+                    <C.TableHeadColumn></C.TableHeadColumn>
+                    <C.TableHeadColumn></C.TableHeadColumn>
+                    <C.TableHeadColumn></C.TableHeadColumn>
                 </tr>
 
             </thead>

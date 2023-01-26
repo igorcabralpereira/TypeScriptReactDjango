@@ -45,7 +45,7 @@ export const HomePage = () => {
             //console.log(data) // este console mostra as informações atuais vinda do servidor backend
 
             // função para utilizar dados reais como Date e Value.
-            const parsedData: Item[] = data.map(
+            const parsedData: Item[] = await data.map(
                 (x: any) =>
                 ({
                     ...x,
