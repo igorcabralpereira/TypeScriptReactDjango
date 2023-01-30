@@ -65,7 +65,7 @@ export const AuthProvider = ({ children }: { children: JSX.Element }) => {
             return true;
         } else {
             signout();
-            return true;
+            return false;
         }
 
     }

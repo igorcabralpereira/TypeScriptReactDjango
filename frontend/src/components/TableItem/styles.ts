@@ -16,6 +16,7 @@ export const TableLine = styled.tr`
 
 export const TableColumn = styled.td`
     width: 100%;
+    padding-top: 20px;
 `;
 
 export const Title = styled.div`
